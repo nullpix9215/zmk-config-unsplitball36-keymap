@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - config/unsplitball36/**
+  workflow_dispatch:
 
 jobs:
   build:
