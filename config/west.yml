@@ -16,7 +16,7 @@ manifest:
     - name: zmk-component-auto-kdk
       remote: skubmdi
       revision: main
-    - nama: zmk-config-unsplitball
+    - name: zmk-config-unsplitball
       remote: skubmdi
       revision: main
     - name: zmk-driver-paw3222
