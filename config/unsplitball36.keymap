@@ -75,7 +75,7 @@
 				&kp Q	&kp W		&kp E			&kp R			&kp T			&kp Y			&kp U	&kp I		&kp O		&kp P
 				&kp A	&kp S		&kp D			&kp F			&kp G			&kp H			&kp J	&kp K		&kp L		&kp SEMI
 				&kp Z	&kp X		&kp C			&kp V			&kp B			&kp N			&kp M	&kp COMMA	&kp DOT		&kp SLASH
-						&base_layer	&lt CTRL TAB	&lt FUNC SPACE	&lt NUMB GRAVE	&lt NUMB CAPS	&lt FUNC ENTER
+						&base_layer	&lt NUMB ESC	&lt FUNC SPACE	&lt NUMB TAB	&lt NUMB INT2	&lt FUNC ENTER
 			>;
 		};
 		dvorak {
@@ -104,7 +104,7 @@
 		};
 		function {
 			bindings = <
-				&kp ESC		&kp F2		&kp F3			&kp F4		&kp F5		&kp MINUS	&kp EQUAL	&kp INT3	&mt RGUI INS	&mt RCTRL DEL
+				&kp GRAVE	&kp F2		&kp F3			&kp F4		&kp F5		&kp MINUS	&kp EQUAL	&kp INT3	&mt RGUI INS	&mt RCTRL DEL
 				&kp F6		&kp F7		&kp F8			&kp F9		&kp F10		&kp LEFT	&kp DOWN	&kp UP		&kp RIGHT		&mt RSHFT BSPC
 				&kp PSCRN	&kp SLCK	&kp PAUSE_BREAK	&kp F11		&kp F12		&kp HOME	&kp PG_DN	&kp PG_UP	&kp END			&mt RALT K_APP
 							&trans		&trans			&trans		&trans		&trans		&trans
@@ -120,10 +120,10 @@
 		};
 		control {
 			bindings = <
-				&kp C_VOL_UP	&hkp RC(RGUI) D		&hkp RS(RGUI) UP	&hkp RS(RGUI) DOWN	&hkp RC(RGUI) F4		&none	&none	&none	&none	&none
+				&kp C_VOL_UP	&hkp RC(RGUI) D		&hkp RS(RGUI) UP	&hkp RGUI UP		&hkp RC(RGUI) F4		&none	&none	&none	&none	&none
 				&kp C_VOL_DN	&hkp RC(RGUI) LEFT	&hkp RS(RGUI) LEFT	&hkp RS(RGUI) RIGHT	&hkp RC(RGUI) RIGHT		&none	&none	&none	&none	&none
-				&kp C_MUTE		&hkp RGUI LEFT		&hkp RGUI UP		&hkp RGUI DOWN		&hkp RGUI RIGHT			&none	&none	&none	&none	&none
-								&trans				&trans				&trans				&trans			&trans	&trans
+				&kp C_MUTE		&hkp RGUI LEFT		&hkp RS(RGUI) DOWN	&hkp RGUI DOWN		&hkp RGUI RIGHT			&none	&none	&none	&none	&none
+								&trans				&trans				&trans				&trans					&trans	&trans
 			>;
 		};
 	};
