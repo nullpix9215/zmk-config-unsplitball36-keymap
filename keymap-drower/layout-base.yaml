@@ -1,0 +1,149 @@
+layers:
+  qwerty:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - 'Base Layer'
+  - {t: ESC, h: number}
+  - {t: SPACE, h: function}
+  - {t: TAB, h: control}
+  - {t: かな, h: number}
+  - {t: ENTER, h: function}
+  function:
+  - '全角 半角'
+  - F2
+  - F3
+  - F4
+  - F5
+  - '-'
+  - '^'
+  - \
+  - {t: Insert, h: Win}
+  - {t: Delete, h: Ctrl}
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - '←'
+  - '↓'
+  - '↑'
+  - '→'
+  - {t: 'Back Space', h: Shift}
+  - 'Print Screen'
+  - 'Scroll Lock'
+  - 'Pause Break'
+  - F11
+  - F12
+  - Home
+  - 'Page Down'
+  - 'Page Up'
+  - End
+  - {t: Menu, h: Alt}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  number:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '!'
+  - '"'
+  - '#'
+  - '$'
+  - '%'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - '&'
+  - ''''
+  - '('
+  - ')'
+  - ':'
+  - '/ Keypad'
+  - '* Keypad'
+  - '- Keypad'
+  - '+ Keypad'
+  - '. Keypad'
+  - 'Shift+0'
+  - '@'
+  - '['
+  - ']'
+  - _
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  control:
+  - 'Volume Up'
+  - 'Ctrl Win+F4'
+  - 'Shift Win+↑'
+  - 'Win+↑'
+  - 'Ctrl Win+D'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - 'Volume Down'
+  - 'Ctrl Win+←'
+  - 'Shift Win+←'
+  - 'Shift Win+→'
+  - 'Ctrl Win+→'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - 'Volume Mute'
+  - 'Win+←'
+  - 'Shift Win+↓'
+  - 'Win+↓'
+  - 'Win+→'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}

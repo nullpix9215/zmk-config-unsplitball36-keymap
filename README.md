@@ -1,1 +1,5 @@
-![](keymap_drower.png)
+![layout-base](keymap-drower/layout-base.svg)
+![layout-optional](keymap-drower/layout-optional.svg)
+![combo-modifier](keymap-drower/combo-modifier.svg)
+![combo-mouse](keymap-drower/combo-mouse.svg)
+![combo-other](keymap-drower/combo-other.svg)
