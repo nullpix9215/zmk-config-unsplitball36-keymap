@@ -69,7 +69,7 @@
 				&kp Q	&kp W		&kp E			&kp R			&kp T			&kp Y			&kp U	&kp I		&kp O		&kp P
 				&kp A	&kp S		&kp D			&kp F			&kp G			&kp H			&kp J	&kp K		&kp L		&kp SEMI
 				&kp Z	&kp X		&kp C			&kp V			&kp B			&kp N			&kp M	&kp COMMA	&kp DOT		&kp SLASH
-						&base_layer	&lt NUMB ESC	&lt FUNC SPACE	&lt CTRL TAB	&lt NUMB INT2	&lt FUNC ENTER
+						&base_layer	&lt NUMB INT2	&lt FUNC ESC	&lt CTRL TAB	&lt NUMB SPACE	&lt FUNC ENTER
 			>;
 		};
 		dvorak {
@@ -114,9 +114,9 @@
 		};
 		control {
 			bindings = <
-				&kp C_VOL_UP	&hkp RC(RGUI) F4	&hkp RS(RGUI) UP	&hkp RGUI UP		&hkp RC(RGUI) D			&none	&none	&none	&none	&none
-				&kp C_VOL_DN	&hkp RC(RGUI) LEFT	&hkp RS(RGUI) LEFT	&hkp RS(RGUI) RIGHT	&hkp RC(RGUI) RIGHT		&none	&none	&none	&none	&none
-				&kp C_MUTE		&hkp RGUI LEFT		&hkp RS(RGUI) DOWN	&hkp RGUI DOWN		&hkp RGUI RIGHT			&none	&none	&none	&none	&none
+				&kp C_VOL_UP	&hkp RC(RGUI) F4	&hkp RS(RGUI) UP	&hkp RGUI UP		&hkp RC(RGUI) D			&none	&kp PG_UP	&kp UP		&kp PG_DN	&none
+				&kp C_VOL_DN	&hkp RC(RGUI) LEFT	&hkp RS(RGUI) LEFT	&hkp RS(RGUI) RIGHT	&hkp RC(RGUI) RIGHT		&none	&kp LEFT	&kp DOWN	&kp RIGHT	&none
+				&kp C_MUTE		&hkp RGUI LEFT		&hkp RS(RGUI) DOWN	&hkp RGUI DOWN		&hkp RGUI RIGHT			&none	&kp HOME	&none		&kp END		&none
 								&trans				&trans				&trans					&trans				&trans	&trans
 			>;
 		};
@@ -148,13 +148,16 @@
 		single_mb4	{ slow-release; timeout-ms = <35>; key-positions = <26 27>; bindings = <&mkp MB4>; };
 		single_mb5	{ slow-release; timeout-ms = <35>; key-positions = <27 28>; bindings = <&mkp MB5>; };
 		double_mb1	{ slow-release; timeout-ms = <35>; key-positions = <16 17 18>; bindings = <&mkp_2mb1>; };
+		double_mb1_2	{ slow-release; timeout-ms = <35>; key-positions = <6 7>; bindings = <&mkp_2mb1>; };
 		triple_mb1	{ slow-release; timeout-ms = <35>; key-positions = <26 27 28>; bindings = <&mkp_3mb1>; };
 		
 		// home row mods
 		hrm_lctl		{ slow-release; timeout-ms = <35>; key-positions = <10 11>; bindings = <&kp LCTRL>; };
+		hrm_lctl2		{ slow-release; timeout-ms = <35>; key-positions = <1 2>; bindings = <&kp LCTRL>; };
 		hrm_lsht		{ slow-release; timeout-ms = <35>; key-positions = <11 12>; bindings = <&kp LSHFT>; };
 		hrm_lalt		{ slow-release; timeout-ms = <35>; key-positions = <12 13>; bindings = <&kp LALT>; };
 		hrm_lgui		{ slow-release; timeout-ms = <35>; key-positions = <12 14>; bindings = <&kp LGUI>; };
+		hrm_lgui2		{ slow-release; timeout-ms = <35>; key-positions = <2 3>; bindings = <&kp LGUI>; };
 		hrm_lgui_lctl	{ slow-release; timeout-ms = <35>; key-positions = <10 14>; bindings = <&kp LG(LCTRL)>; };
 		hrm_lgui_lsht	{ slow-release; timeout-ms = <35>; key-positions = <11 14>; bindings = <&kp LG(LSHFT)>; };
 		hrm_lgui_lalt	{ slow-release; timeout-ms = <35>; key-positions = <13 14>; bindings = <&kp LG(LALT)>; };
@@ -166,7 +169,7 @@
 };
 
 &sensor_rotation {
-	rotation-angle = <25>;
+	rotation-angle = <0>;
 };
 
 / {
@@ -196,8 +199,8 @@
 		
 		input-processors
 			= <&sensor_rotation>
-			, <&zip_x_scaler 3 5>
-			, <&zip_y_scaler 4 5>
+			, <&zip_x_scaler 2 5>
+			, <&zip_y_scaler 2 5>
 			, <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>
 		;
 		
