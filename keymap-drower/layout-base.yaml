@@ -59,7 +59,7 @@ layers:
   - {t: 'Back Space', h: Shift}
   - 'Print Screen'
   - 'Scroll Lock'
-  - 'Pause Break'
+  - 'Caps Lock'
   - F11
   - F12
   - Home
