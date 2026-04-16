@@ -100,7 +100,7 @@
 			bindings = <
 				&kp GRAVE	&kp F2		&kp F3			&kp F4		&kp F5		&kp MINUS	&kp EQUAL	&kp INT3	&mt RGUI INS	&mt RCTRL DEL
 				&kp F6		&kp F7		&kp F8			&kp F9		&kp F10		&kp LEFT	&kp DOWN	&kp UP		&kp RIGHT		&mt RSHFT BSPC
-				&kp PSCRN	&kp SLCK	&kp CAPSLOCK	&kp F11		&kp F12		&kp HOME	&kp PG_DN	&kp PG_UP	&kp END			&mt RALT K_APP
+				&kp PSCRN	&kp SLCK	&kp LS(CAPSLOCK)	&kp F11		&kp F12		&kp HOME	&kp PG_DN	&kp PG_UP	&kp END			&mt RALT K_APP
 							&trans		&trans			&trans		&trans		&trans		&trans
 			>;
 		};
