@@ -98,7 +98,7 @@
 		};
 		function {
 			bindings = <
-				&kp GRAVE	&kp F2		&kp F3				&kp F4		&kp F5		&kp MINUS	&kp EQUAL	&kp INT3	&ko BSPC	&kp INS
+				&kp GRAVE	&kp F2		&kp F3				&kp F4		&kp F5		&kp MINUS	&kp EQUAL	&kp INT3	&kp BSPC	&kp INS
 				&kp F6		&kp F7		&kp F8				&kp F9		&kp F10		&none		&none		&none		&none		&kp DEL
 				&kp PSCRN	&kp SLCK	&kp LS(CAPSLOCK)	&kp F11		&kp F12		&none		&kp INT5	&none		&kp INT4	&kp K_APP
 							&trans		&trans			&trans		&trans		&trans		&trans
