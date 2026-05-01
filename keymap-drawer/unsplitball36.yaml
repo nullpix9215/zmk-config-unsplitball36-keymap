@@ -171,13 +171,13 @@ layers:
   - ⌦
   - ⎙
   - ⇳
-  - ⇧CAPSLOCK
+  - CLCK
   - F11
   - F12
   - ''
-  - INT5
+  - 無変換
   - ''
-  - INT4
+  - 変換
   - ≣
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -186,20 +186,20 @@ layers:
   - {t: ▽, type: trans}
   - {type: held alternate}
   number:
-  - 1!
-  - 2"
-  - 3#
-  - 4$
-  - 5%
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
   - '&hkp LSHFT N1'
   - '&hkp LSHFT N2'
   - '&hkp LSHFT N3'
   - '&hkp LSHFT N4'
   - '&hkp LSHFT N5'
-  - 6&
-  - 7'
-  - 8(
-  - 9)
+  - 6
+  - 7
+  - 8
+  - 9
   - '0'
   - '&hkp LSHFT N6'
   - '&hkp LSHFT N7'
