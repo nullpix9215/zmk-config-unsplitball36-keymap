@@ -51,6 +51,10 @@ parse_config:
     "&hkp LSHFT N7": "'"
     "&hkp LSHFT N8": "("
     "&hkp LSHFT N9": ")"
+    "&hkp RGUI UP": "Win ↑"
+    "&hkp RGUI DOWN": "Win ↓"
+    "&hkp RGUI LEFT": "Win ←"
+    "&hkp RGUI RIGHT": "Win →"
   zmk_keycode_map:
     SEMI: ";+"
     COMMA: ",<"
