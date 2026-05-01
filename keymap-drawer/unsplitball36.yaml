@@ -1,0 +1,322 @@
+layout: {zmk_keyboard: unsplitball36}
+layers:
+  qwerty:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;+
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ',<'
+  - .>
+  - /?
+  - base
+  - {t: あ/ア, h: number}
+  - {t: ⎋, h: function}
+  - {t: ↹, h: control}
+  - {t: ␣, h: number}
+  - {t: ⏎, h: function}
+  dvorak:
+  - /?
+  - ',<'
+  - .>
+  - P
+  - Y
+  - F
+  - G
+  - C
+  - R
+  - L
+  - A
+  - O
+  - E
+  - U
+  - I
+  - D
+  - H
+  - T
+  - N
+  - S
+  - ;+
+  - Q
+  - J
+  - K
+  - X
+  - B
+  - M
+  - W
+  - V
+  - Z
+  - base
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  colemak:
+  - Q
+  - W
+  - F
+  - P
+  - G
+  - J
+  - L
+  - U
+  - Y
+  - ;+
+  - A
+  - R
+  - S
+  - T
+  - D
+  - H
+  - N
+  - E
+  - I
+  - O
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - K
+  - M
+  - ',<'
+  - .>
+  - /?
+  - base
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  eucalyn:
+  - Q
+  - W
+  - ',<'
+  - .>
+  - ;+
+  - M
+  - R
+  - D
+  - Y
+  - P
+  - A
+  - O
+  - E
+  - I
+  - U
+  - G
+  - T
+  - K
+  - S
+  - N
+  - Z
+  - X
+  - C
+  - V
+  - F
+  - B
+  - H
+  - J
+  - L
+  - /?
+  - base
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  function:
+  - 半/全
+  - F2
+  - F3
+  - F4
+  - F5
+  - -=
+  - ^~
+  - \|
+  - ⌫
+  - ⭿
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - ''
+  - ''
+  - ''
+  - ''
+  - ⌦
+  - ⎙
+  - ⇳
+  - ⇧CAPSLOCK
+  - F11
+  - F12
+  - ''
+  - INT5
+  - ''
+  - INT4
+  - ≣
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held alternate}
+  number:
+  - 1!
+  - 2"
+  - 3#
+  - 4$
+  - 5%
+  - '&hkp LSHFT N1'
+  - '&hkp LSHFT N2'
+  - '&hkp LSHFT N3'
+  - '&hkp LSHFT N4'
+  - '&hkp LSHFT N5'
+  - 6&
+  - 7'
+  - 8(
+  - 9)
+  - '0'
+  - '&hkp LSHFT N6'
+  - '&hkp LSHFT N7'
+  - '&hkp LSHFT N8'
+  - '&hkp LSHFT N9'
+  - :*
+  - (/)
+  - (*)
+  - (-)
+  - (+)
+  - (.)
+  - ''
+  - '@`'
+  - '[{'
+  - ']}'
+  - \_
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held alternate}
+  - {t: ▽, type: trans}
+  control:
+  - 🔊
+  - ←⌘^
+  - '&hkp RGUI UP'
+  - ⌃⌘→
+  - ''
+  - ''
+  - ⤓
+  - ↑
+  - ⤒
+  - ''
+  - 🔉
+  - '&hkp RGUI LEFT'
+  - '&hkp RGUI DOWN'
+  - '&hkp RGUI RIGHT'
+  - ''
+  - ''
+  - ←
+  - ↓
+  - →
+  - ''
+  - 🔇
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ↖
+  - ''
+  - ↘
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+combos:
+- p: [0, 10, 20]
+  k: boot
+- p: [5, 15]
+  k: ᛒ1
+- p: [6, 16]
+  k: ᛒ2
+- p: [7, 17]
+  k: ᛒ3
+- p: [8, 18]
+  k: ᛒ4
+- p: [9, 19]
+  k: ᛒ5
+- p: [9, 19, 29]
+  k: ᛒx
+- p: [5, 15, 25]
+  k: ᛒ/ψ
+- p: [13, 16]
+  k: asdf;lkj
+- p: [16, 17]
+  k: Mouse Left
+- p: [17, 18]
+  k: Mouse Right
+- p: [16, 18]
+  k: Mouse Wheel
+- p: [26, 27]
+  k: Mouse Back
+- p: [27, 28]
+  k: Mouse Forward
+- p: [16, 17, 18]
+  k: Double Click
+- p: [6, 7]
+  k: Double Click
+- p: [26, 27, 28]
+  k: Triple Click
+- p: [10, 11]
+  k: ⌃
+- p: [1, 2]
+  k: ⌃
+- p: [11, 12]
+  k: ⇧
+- p: [12, 13]
+  k: ⌥
+- p: [12, 14]
+  k: ⌘
+- p: [2, 3]
+  k: ⌘
+- p: [10, 14]
+  k: ⌘⌃
+- p: [11, 14]
+  k: ⌘⇧
+- p: [13, 14]
+  k: ⌘⌥
+- p: [10, 13]
+  k: ^⌥
+- p: [10, 11, 12]
+  k: ^⇧
+- p: [11, 12, 13]
+  k: ⇧⌥
+- p: [10, 11, 12, 13]
+  k: ^⇧⌥
