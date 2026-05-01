@@ -175,9 +175,9 @@ layers:
   - F11
   - F12
   - ''
-  - 無変換
-  - ''
   - 変換
+  - ''
+  - 無変換
   - ≣
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -186,25 +186,25 @@ layers:
   - {t: ▽, type: trans}
   - {type: held alternate}
   number:
-  - 1
-  - 2
-  - 3
-  - 4
-  - 5
-  - '&hkp LSHFT N1'
-  - '&hkp LSHFT N2'
-  - '&hkp LSHFT N3'
-  - '&hkp LSHFT N4'
-  - '&hkp LSHFT N5'
-  - 6
-  - 7
-  - 8
-  - 9
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '!'
+  - '"'
+  - '#'
+  - $
+  - '%'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
   - '0'
-  - '&hkp LSHFT N6'
-  - '&hkp LSHFT N7'
-  - '&hkp LSHFT N8'
-  - '&hkp LSHFT N9'
+  - '&'
+  - ''''
+  - (
+  - )
   - :*
   - (/)
   - (*)
@@ -229,9 +229,9 @@ layers:
   - ⌃⌘→
   - ''
   - ''
-  - ⤓
+  - PGUP
   - ↑
-  - ⤒
+  - PGDN
   - ''
   - 🔉
   - '&hkp RGUI LEFT'
@@ -249,9 +249,9 @@ layers:
   - ''
   - ''
   - ''
-  - ↖
+  - HOME
   - ''
-  - ↘
+  - END
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
