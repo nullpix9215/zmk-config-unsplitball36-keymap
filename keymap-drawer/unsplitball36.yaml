@@ -225,7 +225,7 @@ layers:
   control:
   - 🔊
   - ←⌘^
-  - '&hkp RGUI UP'
+  - Win ↑
   - ⌃⌘→
   - ''
   - ''
@@ -234,9 +234,9 @@ layers:
   - PGDN
   - ''
   - 🔉
-  - '&hkp RGUI LEFT'
-  - '&hkp RGUI DOWN'
-  - '&hkp RGUI RIGHT'
+  - Win ←
+  - Win ↓
+  - Win →
   - ''
   - ''
   - ←
