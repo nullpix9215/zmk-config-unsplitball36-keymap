@@ -43,7 +43,7 @@ parse_config:
     "&hkp RS(RGUI) RIGHT": "⇧⌘→"
     "&kp LS(CAPSLOCK)": "CLCK"
     "&hkp LSHFT N1": "!"
-    "&hkp LSHFT N2": """
+    "&hkp LSHFT N2": """"
     "&hkp LSHFT N3": "#"
     "&hkp LSHFT N4": "$"
     "&hkp LSHFT N5": "%"
