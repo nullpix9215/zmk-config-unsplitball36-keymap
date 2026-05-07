@@ -175,9 +175,9 @@ layers:
   - F11
   - F12
   - ''
-  - 変換
-  - ''
   - 無変換
+  - ''
+  - 変換
   - ≣
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
