@@ -69,7 +69,7 @@
 				&kp Q	&kp W		&kp E			&kp R			&kp T			&kp Y			&kp U	&kp I		&kp O		&kp P
 				&kp A	&kp S		&kp D			&kp F			&kp G			&kp H			&kp J	&kp K		&kp L		&kp SEMI
 				&kp Z	&kp X		&kp C			&kp V			&kp B			&kp N			&kp M	&kp COMMA	&kp DOT		&kp SLASH
-						&base_layer	&lt NUMB INT2	&lt FUNC ESC	&lt CTRL TAB	&lt NUMB SPACE	&lt FUNC ENTER
+						&mt LCTRL LS(CAPSLOCK)	&mt LSHFT INT2	&mt LALT ESC	&lt CTRL TAB	&lt NUMB SPACE	&lt FUNC ENTER
 			>;
 		};
 		dvorak {
@@ -100,7 +100,7 @@
 			bindings = <
 				&kp GRAVE	&kp F2		&kp F3				&kp F4		&kp F5		&kp MINUS	&kp EQUAL	&kp INT3	&kp BSPC	&kp INS
 				&kp F6		&kp F7		&kp F8				&kp F9		&kp F10		&none		&none		&none		&none		&kp DEL
-				&kp PSCRN	&kp SLCK	&kp LS(CAPSLOCK)	&kp F11		&kp F12		&none		&kp INT5	&none		&kp INT4	&kp K_APP
+				&kp PSCRN	&kp SLCK	&kp PAUSE_BREAK	&kp F11		&kp F12		&none		&kp INT5	&none		&kp INT4	&kp K_APP
 							&trans		&trans			&trans		&trans		&trans		&trans
 			>;
 		};
@@ -148,12 +148,10 @@
 		single_mb4	{ slow-release; timeout-ms = <35>; key-positions = <26 27>; bindings = <&mkp MB4>; };
 		single_mb5	{ slow-release; timeout-ms = <35>; key-positions = <27 28>; bindings = <&mkp MB5>; };
 		double_mb1	{ slow-release; timeout-ms = <35>; key-positions = <16 17 18>; bindings = <&mkp_2mb1>; };
-		double_mb1_2	{ slow-release; timeout-ms = <35>; key-positions = <6 7>; bindings = <&mkp_2mb1>; };
 		triple_mb1	{ slow-release; timeout-ms = <35>; key-positions = <26 27 28>; bindings = <&mkp_3mb1>; };
 		
 		// home row mods
 		hrm_lctl		{ slow-release; timeout-ms = <35>; key-positions = <10 11>; bindings = <&kp LCTRL>; };
-		hrm_lctl2		{ slow-release; timeout-ms = <35>; key-positions = <1 2>; bindings = <&kp LCTRL>; };
 		hrm_lsht		{ slow-release; timeout-ms = <35>; key-positions = <11 12>; bindings = <&kp LSHFT>; };
 		hrm_lalt		{ slow-release; timeout-ms = <35>; key-positions = <12 13>; bindings = <&kp LALT>; };
 		hrm_lgui		{ slow-release; timeout-ms = <35>; key-positions = <12 14>; bindings = <&kp LGUI>; };
