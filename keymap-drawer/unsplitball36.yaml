@@ -31,9 +31,9 @@ layers:
   - ',<'
   - .>
   - /?
-  - base
-  - {t: あ/ア, h: number}
-  - {t: ⎋, h: function}
+  - {t: CLCK, h: ⌃}
+  - {t: あ/ア, h: ⇧}
+  - {t: ⎋, h: ⌥}
   - {t: ↹, h: control}
   - {t: ␣, h: number}
   - {t: ⏎, h: function}
@@ -171,7 +171,7 @@ layers:
   - ⌦
   - PSCRN
   - SLCK
-  - CLCK
+  - ⎉
   - F11
   - F12
   - ''
@@ -181,10 +181,10 @@ layers:
   - ≣
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held alternate}
   number:
   - '1'
   - '2'
@@ -217,10 +217,10 @@ layers:
   - ']}'
   - \_
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held alternate}
   - {t: ▽, type: trans}
   control:
   - 🔊
@@ -290,13 +290,9 @@ combos:
   k: Mouse Forward
 - p: [16, 17, 18]
   k: Double Click
-- p: [6, 7]
-  k: Double Click
 - p: [26, 27, 28]
   k: Triple Click
 - p: [10, 11]
-  k: ⌃
-- p: [1, 2]
   k: ⌃
 - p: [11, 12]
   k: ⇧
