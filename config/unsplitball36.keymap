@@ -17,7 +17,7 @@
 #define NONE &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none \
              &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none
 
-&lt { flavor = "hold-preferred"; };
+&lt { flavor = "hold-preferred"; retro-tap; };
 &mt { flavor = "hold-preferred"; quick-tap-ms = <300>; };
 
 / {
