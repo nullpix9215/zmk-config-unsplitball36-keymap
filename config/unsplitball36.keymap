@@ -63,25 +63,25 @@
         ctrl_pgup: ctrl_pgup {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LCTRL &kp PG_UP>;
+            bindings = <&hkp LCTRL PG_UP>;
         };
 
         ctrl_pgdn: ctrl_pgdn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LCTRL &kp PG_DN>;
+            bindings = <&hkp LCTRL PG_DN>;
         };
 
         ctrl_home: ctrl_home {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LCTRL &kp HOME>;
+            bindings = <&hkp LCTRL HOME>;
         };
 
         ctrl_end: ctrl_end {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LCTRL &kp END>;
+            bindings = <&hkp LCTRL END>;
         };
 	};
 	
