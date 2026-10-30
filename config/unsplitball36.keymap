@@ -59,6 +59,30 @@
 			tapping-term-ms = <1000>;
 			bindings = <&to QWERTY>, <&to DVORAK>, <&to COLEMAK>, <&to EUCALYN>;
 		};
+
+        ctrl_pgup: ctrl_pgup {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LCTRL &kp PG_UP>;
+        };
+
+        ctrl_pgdn: ctrl_pgdn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LCTRL &kp PG_DN>;
+        };
+
+        ctrl_home: ctrl_home {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LCTRL &kp HOME>;
+        };
+
+        ctrl_end: ctrl_end {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LCTRL &kp END>;
+        };
 	};
 	
 	keymap {
@@ -140,6 +164,10 @@
 		
 		// macro
 		home	{ slow-release; timeout-ms = <35>; key-positions = <13 16>; bindings = <&home>; };
+        ctrl_home	{ slow-release; timeout-ms = <35>; key-positions = <5 6>; bindings = <&ctrl_home>; };
+        ctrl_pgup	{ slow-release; timeout-ms = <35>; key-positions = <6 7>; bindings = <&ctrl_pgup>; };
+        ctrl_pgdn	{ slow-release; timeout-ms = <35>; key-positions = <7 8>; bindings = <&ctrl_pgdn>; };
+        ctrl_end	{ slow-release; timeout-ms = <35>; key-positions = <8 9>; bindings = <&ctrl_end>; };
 		
 		// mouse button
 		single_mb1	{ slow-release; timeout-ms = <35>; key-positions = <16 17>; bindings = <&mkp MB1>; };
