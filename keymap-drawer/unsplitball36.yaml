@@ -278,6 +278,14 @@ combos:
   k: ᛒ/ψ
 - p: [13, 16]
   k: asdf;lkj
+- p: [5, 6]
+  k: '&ctrl_home'
+- p: [6, 7]
+  k: '&ctrl_pgup'
+- p: [7, 8]
+  k: '&ctrl_pgdn'
+- p: [8, 9]
+  k: '&ctrl_end'
 - p: [16, 17]
   k: Mouse Left
 - p: [17, 18]
